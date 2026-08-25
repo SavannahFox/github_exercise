@@ -2,10 +2,10 @@ import os, zipfile, urllib.request
 
 def download_data(force=False):
     """Download and extract course data from Zenodo."""
-    
+
     zip_path = 'data.zip'
     data_dir = 'data'
-    
+
     if not os.path.exists(zip_path) or force:
         print("Downloading course data...")
         urllib.request.urlretrieve(
