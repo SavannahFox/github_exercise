@@ -23,4 +23,4 @@ def download_data(force=False):
     return data_dir
 
 if __name__ == "__main__":
-    download_data()
+    download_data()    
